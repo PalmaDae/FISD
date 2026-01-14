@@ -1,0 +1,37 @@
+<!--Написать документ xml, типа магазин, есть категории, у категорий есть названия и идентификаторы,
+есть продукты у продуктов название, цена, идентификатор, есть ли скидка (true/false)-->
+
+<store>
+    <category id="69">
+        <name>
+            Cпорт-товары
+        </name>
+        <product id="68">
+            <name>
+                Ракетка
+            </name>
+            <price>
+                500
+            </price>
+            <discount>
+                true
+            </discount>
+        </product>
+    </category>
+    <category id="13">
+        <name>
+            "Электроника"
+        </name>
+        <product id="43">
+            <name>
+                Ноутбук
+            </name>
+            <price>
+                50000
+            </price>
+            <discount>
+                false
+            </discount>
+        </product>
+    </category>
+</store>

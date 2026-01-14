@@ -1,0 +1,28 @@
+<!--Написать xml-файл с описанием товара.-->
+<!--        У него должны быть идентификатор, наименование, цена, категория и идентификатор категории.-->
+
+<products>
+    <product id="12">
+        <name>
+            Билет
+        </name>
+        <price>
+            18000
+        </price>
+        <categorty id="15">
+            Афиша
+        </categorty>
+    </product>
+
+    <product id="15">
+        <name>
+            Ноутбук
+        </name>
+        <price>
+            1800
+        </price>
+        <categorty id="13">
+            Электроника
+        </categorty>
+    </product>
+</products>

@@ -1,0 +1,7 @@
+<!--Написать xml-файл для списка чего-то с обычными атрибутами и одним атрибутом составным-->
+
+<phones>
+    <phone id="1" name="iphone" price="0.25$"/>
+    <phone id="2" name="samsing" price="0.15$"/>
+    <phone id="3" name="xiaomi" price="0.05$"/>
+</phones>
