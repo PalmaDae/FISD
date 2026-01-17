@@ -1,0 +1,17 @@
+#напишите запрос http, который создает пользователя, получает какую-то инфу и тд
+
+#POST /users HTTP/1.1
+#Host: localhost:8080
+#Content-Type: application/json
+#Content-Length: 69
+#Connection: close
+#
+#{
+#  "username": "palmadae",
+#  "email": "palmadae@mail.ru",
+#  "password": "ilovearsik"
+#}
+
+GET /users/palmadae HTTP/1.1
+Host: localhost:8080
+Connection: close
