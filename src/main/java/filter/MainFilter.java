@@ -13,22 +13,22 @@ import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
 
-@WebFilter("/*")
-public class MainFilter extends HttpFilter {
-    @Override
-    public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws IOException, ServletException {
-        HttpSession session = ((HttpServletRequest) req).getSession(true);
-
-        User user = (User) session.getAttribute("user");
-
-        if (user == null) {
-            System.out.println("User is not in session");
-        }
-
-        if (user.role.equals("admin")) {
-            System.out.println("User in session and his is Admin");
-        }
-
-        chain.doFilter(req,res);
-    }
-}
+//@WebFilter("/*")
+//public class MainFilter extends HttpFilter {
+//    @Override
+//    public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws IOException, ServletException {
+//        HttpSession session = ((HttpServletRequest) req).getSession(true);
+//
+//        User user = (User) session.getAttribute("user");
+//
+//        if (user == null) {
+//            System.out.println("User is not in session");
+//        }
+//
+//        if (user.role.equals("admin")) {
+//            System.out.println("User in session and his is Admin");
+//        }
+//
+//        chain.doFilter(req,res);
+//    }
+//}
